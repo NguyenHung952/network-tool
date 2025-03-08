@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công cụ kiểm tra mạng</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-network-wired"></i> Công cụ kiểm tra mạng</h1>
+
+        <!-- Công cụ kiểm tra Ping -->
+        <div class="tool">
+            <h2><i class="fas fa-wifi"></i> Kiểm tra Ping</h2>
+            <input type="text" id="pingHost" placeholder="Nhập địa chỉ IP hoặc tên miền">
+            <button onclick="checkPing()">Kiểm tra</button>
+            <p class="result" id="pingResult">Kết quả: Chưa kiểm tra</p>
+        </div>
+
+        <!-- Công cụ tra cứu DNS -->
+        <div class="tool">
+            <h2><i class="fas fa-server"></i> Tra cứu DNS</h2>
+            <input type="text" id="dnsHost" placeholder="Nhập tên miền">
+            <button onclick="lookupDNS()">Tra cứu</button>
+            <p class="result" id="dnsResult">Kết quả: Chưa kiểm tra</p>
+        </div>
+
+        <!-- Công cụ kiểm tra tốc độ tải xuống -->
+        <div class="tool">
+            <h2><i class="fas fa-tachometer-alt"></i> Kiểm tra tốc độ mạng</h2>
+            <button onclick="testSpeed()">Bắt đầu kiểm tra</button>
+            <p class="result" id="speedResult">Kết quả: Chưa kiểm tra</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
