@@ -52,9 +52,7 @@ git clone https://github.com/YOUR-USERNAME/network-tool.git
 2️⃣ Mở file `index.html` trong trình duyệt.  
 3️⃣ Sử dụng các công cụ kiểm tra mạng.  
 
-### 🌍 **2. Chạy trên Google Site**  
-Nếu bạn muốn sử dụng chương trình, bạn có thể truy cập vào:
-https://sites.google.com/view/mycodinz/c%C3%B4ng-c%E1%BB%A5-ki%E1%BB%83m-tra-m%E1%BA%A1ng
+
 
 ---
 
