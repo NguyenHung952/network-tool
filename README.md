@@ -1,76 +1,150 @@
+# 🌐 Công Cụ Kiểm Tra Mạng 🌐
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-Web-orange?style=for-the-badge&logo=html5">
+  <img src="https://img.shields.io/badge/CSS3-Responsive-blue?style=for-the-badge&logo=css3">
+  <img src="https://img.shields.io/badge/JavaScript-Network-yellow?style=for-the-badge&logo=javascript">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+</p>
+
+<p align="center">
+  ⚡ Công cụ hỗ trợ kiểm tra mạng trực tiếp trên trình duyệt nhanh chóng và tiện lợi.
+</p>
 
 ---
 
-# 🌐 Công Cụ Kiểm Tra Mạng 🌐  
-### 🎯 Kiểm tra Ping, tra cứu DNS & đo tốc độ mạng  
+# 📖 Giới thiệu
 
-**Công cụ kiểm tra mạng** giúp bạn nhanh chóng kiểm tra **độ trễ mạng (ping), tra cứu DNS của tên miền và đo tốc độ tải xuống**. Ứng dụng chạy trực tiếp trên trình duyệt mà không cần cài đặt phần mềm.  
+**Công Cụ Kiểm Tra Mạng** là một web tool giúp người dùng kiểm tra và phân tích một số thông tin mạng cơ bản ngay trên trình duyệt mà không cần cài đặt phần mềm.
 
----
+Ứng dụng hỗ trợ:
 
-## 🌟 **Tính năng chính**  
-✔️ **Kiểm tra Ping** của một tên miền hoặc địa chỉ IP.  
-✔️ **Tra cứu DNS** để xem địa chỉ IP của một tên miền.  
-✔️ **Đo tốc độ mạng** bằng cách tải xuống một tệp thử nghiệm.  
-✔️ **Thiết kế đơn giản, dễ sử dụng trên mọi thiết bị**.  
-
----
-
-## 🎮 **Cách sử dụng**  
-1️⃣ **Kiểm tra Ping:**  
-   - Nhập tên miền hoặc địa chỉ IP.  
-   - Nhấn **"Kiểm tra"** để xem thời gian phản hồi (ms).  
-
-2️⃣ **Tra cứu DNS:**  
-   - Nhập tên miền muốn kiểm tra.  
-   - Nhấn **"Tra cứu"** để lấy địa chỉ IP.  
-
-3️⃣ **Kiểm tra tốc độ mạng:**  
-   - Nhấn **"Bắt đầu kiểm tra"**.  
-   - Chờ kết quả hiển thị tốc độ tải xuống (Mbps).  
+- 📡 Kiểm tra độ trễ mạng (Ping)
+- 🌍 Tra cứu DNS
+- 🚀 Đo tốc độ mạng
+- 🔎 Kiểm tra kết nối Internet
+- 💻 Giao diện trực quan, dễ sử dụng
 
 ---
 
-## 📂 **Cấu trúc thư mục**  
+# 🚀 Demo
+
+🔗 Live Demo:
+
+```bash
+https://nguyenhung952.github.io/
 ```
+
+---
+
+# 📂 Cấu trúc Project
+
+```bash
 network-tool/
-│── index.html      # Giao diện HTML chính
-│── styles.css      # Định dạng giao diện
-│── script.js       # Xử lý logic kiểm tra mạng
-└── README.md       # Mô tả dự án
+│
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
 ```
 
 ---
 
-## 🚀 **Cách chạy dự án**  
+# 🛠 Công nghệ sử dụng
 
-### 🖥️ **1. Chạy trên máy tính**  
-1️⃣ Clone hoặc tải mã nguồn về máy:  
-```sh
-git clone https://github.com/YOUR-USERNAME/network-tool.git
+| Công nghệ | Vai trò |
+|---|---|
+| HTML5 | Xây dựng giao diện |
+| CSS3 | Thiết kế UI |
+| JavaScript | Xử lý logic mạng |
+
+---
+
+# ⚙️ Chức năng chính
+
+## 📌 Ping Test
+- Kiểm tra độ trễ mạng
+- Hiển thị phản hồi kết nối
+
+## 📌 DNS Lookup
+- Tra cứu địa chỉ DNS
+- Phân tích tên miền
+
+## 📌 Speed Test
+- Đo tốc độ tải xuống
+- Kiểm tra kết nối Internet
+
+## 📌 User Interface
+- Responsive Design
+- Giao diện tối hiện đại
+- Dễ thao tác trên nhiều thiết bị
+
+---
+
+# 🧠 Kiến thức áp dụng
+
+Project sử dụng các kiến thức:
+
+- Networking Fundamentals
+- DNS
+- HTTP Requests
+- JavaScript DOM
+- Async / Fetch API
+
+---
+
+# 📸 Điểm nổi bật
+
+✨ Giao diện hiện đại  
+✨ Chạy trực tiếp trên trình duyệt  
+✨ Không cần cài đặt  
+✨ Dễ sử dụng  
+✨ Hỗ trợ học tập môn mạng máy tính
+
+---
+
+# ▶️ Cách chạy project
+
+## Clone repository
+
+```bash
+git clone https://github.com/your-username/network-tool.git
 ```
-2️⃣ Mở file `index.html` trong trình duyệt.  
-3️⃣ Sử dụng các công cụ kiểm tra mạng.  
 
+## Chạy ứng dụng
 
+Mở file:
 
----
+```bash
+index.html
+```
 
-## 🎯 **Đóng góp & Cải tiến**  
-Nếu bạn muốn cải thiện dự án, hãy làm theo các bước sau:  
-1️⃣ **Fork** repository này.  
-2️⃣ Tạo một **branch mới** với tính năng bạn muốn thêm.  
-3️⃣ **Commit** thay đổi và **push** lên GitHub.  
-4️⃣ Gửi **pull request** để mình xem xét! 🚀  
+bằng trình duyệt để sử dụng.
 
 ---
 
-## 📜 **Bản quyền & Giấy phép**  
-Dự án này được phát triển với mục đích **học tập và phi lợi nhuận**. Bạn có thể sử dụng, chỉnh sửa và chia sẻ thoải mái.  
+# 🎯 Mục tiêu dự án
+
+- Thực hành lập trình web bằng JavaScript
+- Ứng dụng kiến thức mạng máy tính
+- Xây dựng công cụ hỗ trợ thực tế
+- Cải thiện kỹ năng frontend development
 
 ---
 
-Chúc bạn sử dụng vui vẻ! 🌐✨ **Nếu thấy hay, hãy ⭐ repository này nhé!** 🚀📡  
+# 👨‍💻 Author
+
+**Nguyễn Ngọc Hùng**  
+Sinh viên Điện tử Viễn thông – IUH
 
 ---
 
+# ⭐ Support
+
+Nếu project hữu ích, hãy để lại một ⭐ cho repository.
+
+---
+
+<p align="center">
+  Made with ❤️ using HTML • CSS • JavaScript
+</p>
