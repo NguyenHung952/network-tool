@@ -1,8 +1,15 @@
-# Network Tool
+# 🛠️ Network Tool
 
-Bộ công cụ web nhỏ hỗ trợ **tính toán và kiểm tra thông tin mạng**, phục vụ học tập mạng máy tính.
+> Bộ công cụ web nhỏ dành cho **mạng máy tính**, tập trung vào các phép tính và tiện ích xử lý thông tin mạng trên trình duyệt.
 
-## Cấu trúc
+## ✨ Điểm nổi bật
+
+- Giao diện tập trung cho các tiện ích mạng.
+- Xử lý dữ liệu trực tiếp bằng JavaScript.
+- Không cần backend theo cấu trúc hiện tại.
+- Phù hợp để học và kiểm tra nhanh các khái niệm mạng.
+
+## 🧱 Cấu trúc
 
 ```text
 network-tool/
@@ -12,14 +19,22 @@ network-tool/
 └── README.md
 ```
 
-## Thành phần
+## 🚀 Chạy
 
-- `index.html`: giao diện.
-- `script.js`: các chức năng xử lý mạng.
-- `styles.css`: định dạng giao diện.
+Mở `index.html` bằng trình duyệt hiện đại hoặc chạy bằng static web server.
 
-## Mục đích
+## 🛠️ Công nghệ
 
-Cung cấp các tiện ích mạng cơ bản trực tiếp trên trình duyệt.
+`HTML5` · `CSS3` · `JavaScript`
 
-> Mã nguồn hiện có được giữ nguyên; chỉ cập nhật README.
+## 🎓 Mục đích
+
+Dùng làm **network utility mini-app** trong quá trình học mạng máy tính và thực hành frontend.
+
+## 📌 Trạng thái
+
+**Learning / Network Utility** — chỉ thay đổi tài liệu, giữ nguyên mã nguồn ứng dụng.
+
+---
+
+**Nguyễn Ngọc Hùng · IUH**
